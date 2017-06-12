@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{A66D6462-02B4-414E-973A-52B854B10AF2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Repository.Source", "Repository.Source\Repository.Source.shproj", "{950BECE5-B21B-4C42-B232-937430A03F90}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Repository.Source\Repository.Source.projitems*{950bece5-b21b-4c42-b232-937430a03f90}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66D6462-02B4-414E-973A-52B854B10AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66D6462-02B4-414E-973A-52B854B10AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66D6462-02B4-414E-973A-52B854B10AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66D6462-02B4-414E-973A-52B854B10AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
