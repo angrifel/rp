@@ -1,0 +1,3 @@
+[submodule "src/Repository.Source"]
+	path = src/Repository.Source
+	url = ../rp-src
